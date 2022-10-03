@@ -1,0 +1,32 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+/* Swiper pagination styles */
+.swiper-pagination {
+  bottom: 0 !important;
+}
+
+.swiper-pagination-bullet {
+  background-color: rgb(199 210 254);
+  opacity: 1;
+  width: 6px;
+  height: 6px;
+  margin: 0 6px !important;
+}
+@media (min-width: 768px) {
+  .swiper-pagination-bullet {
+    width: 8px;
+    height: 8px;
+    margin: 0 8px !important;
+  }
+}
+
+.swiper-pagination-bullet-active {
+  background-color: rgb(99 102 241);
+}
+
+/* Swiper navigation styles */
+.swiper-button-disabled {
+  opacity: 0 !important;
+}
